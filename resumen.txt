@@ -1,0 +1,16 @@
+git diff: 
+	Compare two commits, printing each line that is present in one commit but not the other.
+git clone: 
+	Make a copy of an entire Git repository, including the history, onto your own computer.
+git checkout: 
+	Temporarily reset all files in a directory to their state at the time of a specific commit.
+git log: 
+	Show the commits made in this repository, starting with the most recent.
+git init: 
+	Creates a repository.
+git status: 
+	Shows which files have changed since de last commit.
+git add:
+	Adds the files to the staging area (intermediate zone before commit).
+git reset: 
+	Removes a file from the staging area. It returns to untracked files.

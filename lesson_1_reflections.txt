@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The bug will probably be on one of the lines that is different from one file
+to the other. So viewing diff focus our attention on the differences.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can recover old functionalities, I can see the old code, and copy it if it
+is useful.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+    The main pro is that commits are coherent, they have a logical meaning and 
+represent a unit, making easier looking for bugs. 
+	The cons, is the developer is not responsible enough, he can forget to commit 
+for a long time and lose a lot of work.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+The purpose of those systems is different. Version control systems for code need to allow commiting multiple files at the same time, so changes on code keep coherent and compiling.
+Other systems (as Google Docs) work with unrelated files, individual commits are better.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log allows me seeing all history of commits, identified by an unique id, and a log
+message. If I choose a couple of those commits I can see the differences between both
+versions with git diff. Adding --stats will show me the number of files and lines 
+affected.
+
+How might using version control make you more confident to make changes that could break something?
+
+Well, using version control, if I break something, I know I can always recover the old
+code and have a good version. Even more, I can compare versions to find the bug more
+easily, and fix it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I already use SVN or similar for code, but I need to learn Git for the Android Developer Fast Track I’ll start soon. Let’s see if I prefer Git to SVN after that.
