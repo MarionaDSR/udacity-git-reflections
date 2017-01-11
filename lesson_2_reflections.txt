@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository git creates a hidden folder, .git, to store all the 
 information and status it needs to keep track of your files history. Creating it allows git work.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Working directory is the normal directory we had before start using git. The repository is the place where git saves all the history, so the staging area is an intermediate place to put files that are pretty to commit. I'm not sure to know the added value of staging area.
