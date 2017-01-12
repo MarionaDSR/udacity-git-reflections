@@ -6,3 +6,23 @@ information and status it needs to keep track of your files history. Creating it
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Working directory is the normal directory we had before start using git. The repository is the place where git saves all the history, so the staging area is an intermediate place to put files that are pretty to commit. I'm not sure to know the added value of staging area.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can add to the staging area only the files locigally related, and commit them. Then, add an other group for the next commit, and commit them. And so on.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are useful when you need to split your development into independent histories. For example, for trying a POC, or for maintening code on different stages of the app life cicle (prod vs dev).
+
+How do the diagrams help you visualize the branch structure?
+
+They allow you to follow from one commit to all the ancestors. They help to understand the structure of your branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of a merging is a code that contains the changes made on both branches. On the diagram we try to represent this by adding an arrow to each of the branches involved on the merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Of course, automatic merging is quicker, if it's a simple merge. But sometimes, the changes may seem unrelated, so Git includes both, when there have a true conflict. For example, two developers writting a function with the same name in different places of a file. The new code merged automatically will not compile. Merging always manually takes a lot more time.

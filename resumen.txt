@@ -14,3 +14,17 @@ git add:
 	Adds the files to the staging area (intermediate zone before commit).
 git reset: 
 	Removes a file from the staging area. It returns to untracked files.
+git reset --hard: PELIGROSO!
+	Discards any changes in either the working directory or the staging area.
+git branch:
+	Create and view branches.
+git merge:
+	Merges two branches.
+git show:
+	Shows what changes were introduced by a commit compared to its parent.
+git remote:
+	Create and view remotes
+git push:
+	Sends commits from local to github
+git pull:
+	Sends commits from github to local
