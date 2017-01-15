@@ -17,3 +17,7 @@ Branches works at local. I can make a branche to work on a specific subject of m
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 If you go offline, you can have all information available on that copy.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Using and other version control system, sending the files by email, sharing by USB, ... Easier because everybody knows how to do this, no commands to learn. But harder because there is no a system supporting you for doing this work.
