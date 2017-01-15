@@ -21,3 +21,7 @@ If you go offline, you can have all information available on that copy.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Using and other version control system, sending the files by email, sharing by USB, ... Easier because everybody knows how to do this, no commands to learn. But harder because there is no a system supporting you for doing this work.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I would want to make changes in a separate branch when I want to keep those changes separately from master change, because their development is independent from master development (expermiental features, POCs, ...). I would want to make changes in master when my changes are part of the "daily work". It's easier to use master branch, but it's safer to user separted branches.
