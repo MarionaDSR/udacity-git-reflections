@@ -7,3 +7,9 @@ Why might you want to always pull changes manually rather than having Git automa
 stay up-to-date with your remote repository?
 
 As said for when to commit, I need to choose when is a good moment to share my contents.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork makes a copy for me on GitHub from an other repository on GitHub (mine or not), and keeps mine linked to the original one. When I commit, I commit on MY fork.
+Clone makes a copy on my pc from a repository on GitHub. When I commit, I commit on the original repository.
+Branches works at local. I can make a branche to work on a specific subject of my project, and later, merge it into the trunk.
