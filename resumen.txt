@@ -28,3 +28,5 @@ git push:
 	Sends commits from local to github
 git pull:
 	Sends commits from github to local
+git fetch:
+	Update the local copy of the remote branche, leaving your actual local version alone.
